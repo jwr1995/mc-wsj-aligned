@@ -3,7 +3,7 @@ Preprocessing scripts for signal level evaluation using MC-WSJ-AV
 
 Example usage:
 ```
-from preprocess import prepare_mc_wsj_csv
+from preprocess import prepare_mc_wsj
 prepare_mc_wsj(
     datapath="path/to/mc-wsj-av",
     savepath="path/to/output_csv",
