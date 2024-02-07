@@ -1,5 +1,5 @@
-# mc-wsj-aligned
-Preprocessing scripts for signal level evaluation using MC-WSJ-AV
+# mc-wsj-aligned 
+Preprocessing scripts for signal-level evaluation using MC-WSJ-AV
 
 Example usage:
 ```
@@ -13,6 +13,8 @@ prepare_mc_wsj(
     array_ch=1 # which channel within array to align
 )
 ```
+Please note that the aligned data is output to ```<datapath>/<vocab>_aligned_<sample_rate>```.
+Information about the mixtures that can be used for writing dataloaders in PyTorch (or similar) is output to a CSV file in ```<savepath>```.
 
 ## Cite our work
 ```
