@@ -1,14 +1,15 @@
+##########################################
+# Author: William Ravenscroft, 2024
+# Copyright William Ravenscroft 2024
+##########################################
 def prepare_mc_wsj_csv(
     datapath,
     savepath,
-    skip_prep=False,
     fs=8000,
     vocab="20k",
     array=1,
     array_ch=1
 ):
-    if skip_prep:
-        return
     datapath = os.path.join(datapath, "data/audio")
     processed_data_path = os.path.join(datapath, f"{vocab}_aligned_{str(fs).replace('000','k')}")
 
