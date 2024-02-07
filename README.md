@@ -16,7 +16,7 @@ prepare_mc_wsj(
 
 ## Cite our work
 ```
-\inproceedings{consept2023,
+@inproceedings{consept2023,
 author = {W. Ravenscroft and S. Goetze and T. Hain},
 booktitle = {2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)},
 title = {Combining conformer and dual-path-transformer networks for single channel noisy reverberant speech separation},
